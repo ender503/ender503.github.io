@@ -1,0 +1,3 @@
+[submodule "themes/apollo"]
+	path = themes/apollo
+	url = https://github.com/ender503/hexo-theme-apollo.git
