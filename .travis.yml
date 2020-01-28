@@ -6,6 +6,11 @@ cache: npm
 branches:
   only:
     - master # build master branch only
+git:
+  submodules: false
+before_install:
+  - echo -e "\n\nmachine github.com\n  login $GH_TOKEN\n" >~/.netrc
+  - git submodule update --init --recursive
 script:
   - hexo generate # generate static files
 deploy:
