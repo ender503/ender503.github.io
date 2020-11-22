@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Ender's Blog
+subtitle: 'The way we win matters.'
+description: '過程遠比結果來的重要'
 keywords:
-author: John Doe
-language: en
+author: Ender
+language: zh
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://ender503.dev
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
